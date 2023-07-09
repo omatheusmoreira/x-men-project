@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>X-Men Project</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="src/imagens/logo.svg" type="image/x-icon">
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="logo x-men">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Select a character </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Cyclops" data-description="Cyclops emits powerful beams of energy from his eyes, and can only control the beams with the aid of special eyewear which he must wear at all times.">
+                    <img src="src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey is a mutant with vast empathic and telepathic abilities that were traumatically awakened when as a child she witnessed her best friend's death.">
+                    <img src="src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Shadowcat" data-description="Shadowcat passes through objects at the same speed at which she is moving before she enters them.">
+                    <img src="src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="He can manipulate all forms of magnetism, summon force fields and shoot electromagnetic pulses that can disable electronic devices.">
+                    <img src="src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Nightcrawler" data-description="Kurt Wagner is a mutant whose primary mutant power is the ability to teleport himself, his clothing, and a certain amount of additional mass from one point to another virtually instantaneously.">
+                    <img src="src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Storm" data-description="Storm draws her power from the Earth's electromagnetic field, allowing her to generate lightning, tornados, blizzards, and massive maelstroms.">
+                    <img src="src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Rogue" data-description="Rogue can absorb the powers, energies, memories, knowledge, talents, personality, and physical abilities (whether superhuman or not) of another human being (or members of some sentient alien races) through physical contact of her skin with the skin of the other person.">
+                    <img src="src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="He is a mutant with animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, and three retractable claws in each hand.">
+                    <img src="src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Cyclops</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Cyclops emits powerful beams of energy from his eyes, and can only control the beams with the aid of special eyewear which he must wear at all times.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
